@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		614F6C34208C7270000AF572 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 614F6C33208C7270000AF572 /* AppDelegate.m */; };
+		614F6C36208C7270000AF572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614F6C35208C7270000AF572 /* Assets.xcassets */; };
+		614F6C39208C7270000AF572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614F6C37208C7270000AF572 /* LaunchScreen.storyboard */; };
+		614F6C3C208C7270000AF572 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 614F6C3B208C7270000AF572 /* main.m */; };
+		614F6C46208C7270000AF572 /* DKSMixCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 614F6C45208C7270000AF572 /* DKSMixCodeTests.m */; };
+		614F6C51208C7270000AF572 /* DKSMixCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 614F6C50208C7270000AF572 /* DKSMixCodeUITests.m */; };
+		614F6C60208C72A7000AF572 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 614F6C5F208C72A7000AF572 /* RootViewController.m */; };
+		614F6C63208C7674000AF572 /* confuse.sh in Resources */ = {isa = PBXBuildFile; fileRef = 614F6C62208C7674000AF572 /* confuse.sh */; };
+		614F6C65208C76CD000AF572 /* func.list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 614F6C64208C76CD000AF572 /* func.list.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		614F6C42208C7270000AF572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 614F6C27208C7270000AF572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614F6C2E208C7270000AF572;
+			remoteInfo = DKSMixCode;
+		};
+		614F6C4D208C7270000AF572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 614F6C27208C7270000AF572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614F6C2E208C7270000AF572;
+			remoteInfo = DKSMixCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		614F6C2F208C7270000AF572 /* DKSMixCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKSMixCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		614F6C32208C7270000AF572 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		614F6C33208C7270000AF572 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		614F6C35208C7270000AF572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		614F6C38208C7270000AF572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		614F6C3A208C7270000AF572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614F6C3B208C7270000AF572 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		614F6C41208C7270000AF572 /* DKSMixCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKSMixCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		614F6C45208C7270000AF572 /* DKSMixCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKSMixCodeTests.m; sourceTree = "<group>"; };
+		614F6C47208C7270000AF572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614F6C4C208C7270000AF572 /* DKSMixCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKSMixCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		614F6C50208C7270000AF572 /* DKSMixCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKSMixCodeUITests.m; sourceTree = "<group>"; };
+		614F6C52208C7270000AF572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614F6C5E208C72A7000AF572 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		614F6C5F208C72A7000AF572 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		614F6C61208C74C1000AF572 /* MixCodePCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixCodePCH.pch; sourceTree = "<group>"; };
+		614F6C62208C7674000AF572 /* confuse.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = confuse.sh; sourceTree = "<group>"; };
+		614F6C64208C76CD000AF572 /* func.list.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = func.list.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		614F6C2C208C7270000AF572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614F6C3E208C7270000AF572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614F6C49208C7270000AF572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		614F6C26208C7270000AF572 = {
+			isa = PBXGroup;
+			children = (
+				614F6C64208C76CD000AF572 /* func.list.plist */,
+				614F6C62208C7674000AF572 /* confuse.sh */,
+				614F6C31208C7270000AF572 /* DKSMixCode */,
+				614F6C44208C7270000AF572 /* DKSMixCodeTests */,
+				614F6C4F208C7270000AF572 /* DKSMixCodeUITests */,
+				614F6C30208C7270000AF572 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		614F6C30208C7270000AF572 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				614F6C2F208C7270000AF572 /* DKSMixCode.app */,
+				614F6C41208C7270000AF572 /* DKSMixCodeTests.xctest */,
+				614F6C4C208C7270000AF572 /* DKSMixCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		614F6C31208C7270000AF572 /* DKSMixCode */ = {
+			isa = PBXGroup;
+			children = (
+				614F6C32208C7270000AF572 /* AppDelegate.h */,
+				614F6C33208C7270000AF572 /* AppDelegate.m */,
+				614F6C5E208C72A7000AF572 /* RootViewController.h */,
+				614F6C5F208C72A7000AF572 /* RootViewController.m */,
+				614F6C61208C74C1000AF572 /* MixCodePCH.pch */,
+				614F6C35208C7270000AF572 /* Assets.xcassets */,
+				614F6C37208C7270000AF572 /* LaunchScreen.storyboard */,
+				614F6C3A208C7270000AF572 /* Info.plist */,
+				614F6C3B208C7270000AF572 /* main.m */,
+			);
+			path = DKSMixCode;
+			sourceTree = "<group>";
+		};
+		614F6C44208C7270000AF572 /* DKSMixCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				614F6C45208C7270000AF572 /* DKSMixCodeTests.m */,
+				614F6C47208C7270000AF572 /* Info.plist */,
+			);
+			path = DKSMixCodeTests;
+			sourceTree = "<group>";
+		};
+		614F6C4F208C7270000AF572 /* DKSMixCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				614F6C50208C7270000AF572 /* DKSMixCodeUITests.m */,
+				614F6C52208C7270000AF572 /* Info.plist */,
+			);
+			path = DKSMixCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		614F6C2E208C7270000AF572 /* DKSMixCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614F6C55208C7270000AF572 /* Build configuration list for PBXNativeTarget "DKSMixCode" */;
+			buildPhases = (
+				614F6C2B208C7270000AF572 /* Sources */,
+				614F6C2C208C7270000AF572 /* Frameworks */,
+				614F6C2D208C7270000AF572 /* Resources */,
+				614F6C66208C778C000AF572 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKSMixCode;
+			productName = DKSMixCode;
+			productReference = 614F6C2F208C7270000AF572 /* DKSMixCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		614F6C40208C7270000AF572 /* DKSMixCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614F6C58208C7270000AF572 /* Build configuration list for PBXNativeTarget "DKSMixCodeTests" */;
+			buildPhases = (
+				614F6C3D208C7270000AF572 /* Sources */,
+				614F6C3E208C7270000AF572 /* Frameworks */,
+				614F6C3F208C7270000AF572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				614F6C43208C7270000AF572 /* PBXTargetDependency */,
+			);
+			name = DKSMixCodeTests;
+			productName = DKSMixCodeTests;
+			productReference = 614F6C41208C7270000AF572 /* DKSMixCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		614F6C4B208C7270000AF572 /* DKSMixCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614F6C5B208C7270000AF572 /* Build configuration list for PBXNativeTarget "DKSMixCodeUITests" */;
+			buildPhases = (
+				614F6C48208C7270000AF572 /* Sources */,
+				614F6C49208C7270000AF572 /* Frameworks */,
+				614F6C4A208C7270000AF572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				614F6C4E208C7270000AF572 /* PBXTargetDependency */,
+			);
+			name = DKSMixCodeUITests;
+			productName = DKSMixCodeUITests;
+			productReference = 614F6C4C208C7270000AF572 /* DKSMixCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		614F6C27208C7270000AF572 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = DuKaiShun;
+				TargetAttributes = {
+					614F6C2E208C7270000AF572 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					614F6C40208C7270000AF572 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 614F6C2E208C7270000AF572;
+					};
+					614F6C4B208C7270000AF572 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 614F6C2E208C7270000AF572;
+					};
+				};
+			};
+			buildConfigurationList = 614F6C2A208C7270000AF572 /* Build configuration list for PBXProject "DKSMixCode" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 614F6C26208C7270000AF572;
+			productRefGroup = 614F6C30208C7270000AF572 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				614F6C2E208C7270000AF572 /* DKSMixCode */,
+				614F6C40208C7270000AF572 /* DKSMixCodeTests */,
+				614F6C4B208C7270000AF572 /* DKSMixCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		614F6C2D208C7270000AF572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614F6C36208C7270000AF572 /* Assets.xcassets in Resources */,
+				614F6C63208C7674000AF572 /* confuse.sh in Resources */,
+				614F6C39208C7270000AF572 /* LaunchScreen.storyboard in Resources */,
+				614F6C65208C76CD000AF572 /* func.list.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614F6C3F208C7270000AF572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614F6C4A208C7270000AF572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		614F6C66208C778C000AF572 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /Users/dukaishun/Desktop/DKSMixCode/confuse.sh;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		614F6C2B208C7270000AF572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614F6C3C208C7270000AF572 /* main.m in Sources */,
+				614F6C34208C7270000AF572 /* AppDelegate.m in Sources */,
+				614F6C60208C72A7000AF572 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614F6C3D208C7270000AF572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614F6C46208C7270000AF572 /* DKSMixCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614F6C48208C7270000AF572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614F6C51208C7270000AF572 /* DKSMixCodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		614F6C43208C7270000AF572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 614F6C2E208C7270000AF572 /* DKSMixCode */;
+			targetProxy = 614F6C42208C7270000AF572 /* PBXContainerItemProxy */;
+		};
+		614F6C4E208C7270000AF572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 614F6C2E208C7270000AF572 /* DKSMixCode */;
+			targetProxy = 614F6C4D208C7270000AF572 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		614F6C37208C7270000AF572 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				614F6C38208C7270000AF572 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		614F6C53208C7270000AF572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		614F6C54208C7270000AF572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		614F6C56208C7270000AF572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X42645MK9G;
+				INFOPLIST_FILE = DKSMixCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robooot.DKSMixCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		614F6C57208C7270000AF572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X42645MK9G;
+				INFOPLIST_FILE = DKSMixCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robooot.DKSMixCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		614F6C59208C7270000AF572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X42645MK9G;
+				INFOPLIST_FILE = DKSMixCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robooot.DKSMixCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKSMixCode.app/DKSMixCode";
+			};
+			name = Debug;
+		};
+		614F6C5A208C7270000AF572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X42645MK9G;
+				INFOPLIST_FILE = DKSMixCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robooot.DKSMixCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKSMixCode.app/DKSMixCode";
+			};
+			name = Release;
+		};
+		614F6C5C208C7270000AF572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X42645MK9G;
+				INFOPLIST_FILE = DKSMixCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robooot.DKSMixCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DKSMixCode;
+			};
+			name = Debug;
+		};
+		614F6C5D208C7270000AF572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X42645MK9G;
+				INFOPLIST_FILE = DKSMixCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robooot.DKSMixCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DKSMixCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		614F6C2A208C7270000AF572 /* Build configuration list for PBXProject "DKSMixCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614F6C53208C7270000AF572 /* Debug */,
+				614F6C54208C7270000AF572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614F6C55208C7270000AF572 /* Build configuration list for PBXNativeTarget "DKSMixCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614F6C56208C7270000AF572 /* Debug */,
+				614F6C57208C7270000AF572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614F6C58208C7270000AF572 /* Build configuration list for PBXNativeTarget "DKSMixCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614F6C59208C7270000AF572 /* Debug */,
+				614F6C5A208C7270000AF572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614F6C5B208C7270000AF572 /* Build configuration list for PBXNativeTarget "DKSMixCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614F6C5C208C7270000AF572 /* Debug */,
+				614F6C5D208C7270000AF572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 614F6C27208C7270000AF572 /* Project object */;
+}
